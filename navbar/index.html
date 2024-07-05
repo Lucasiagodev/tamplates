@@ -27,7 +27,7 @@
             </div>
 
             <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="menu_white_36dp.svg" alt=""></button>
+                <button onclick="menuShow()"><img class="icon" src="img/menu_white_36dp.svg" alt=""></button>
             </div>
         </nav>
         <div class="mobile-menu">
@@ -48,10 +48,10 @@
     let menuMobile = document.querySelector('.mobile-menu');
     if (menuMobile.classList.contains('open')) {
         menuMobile.classList.remove('open');
-        document.querySelector('.icon').src = "menu_white_36dp.svg";
+        document.querySelector('.icon').src = "img/menu_white_36dp.svg";
     } else {
         menuMobile.classList.add('open');
-        document.querySelector('.icon').src = "close_white_36dp.svg";
+        document.querySelector('.icon').src = "img/close_white_36dp.svg";
     }
 }
     </script>
